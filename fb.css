@@ -1,0 +1,160 @@
+.header{
+
+    background-color: #3b5998;
+    width: 100%;
+    height: 85px;
+}
+body{
+    margin: 0;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 50%;
+    padding-top: 30px;
+    float: left;
+}
+.logo-text{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+margin-left: 170px;
+}
+.login{
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+}
+.login-label{
+    color:#fff;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight:bold;
+}
+.login-controls{
+    margin-left: 115px;
+}
+.forgotten{
+    color: #9cb4d8;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sub-btn{
+    background: #4267b2;
+    color: #fff;
+    height: 20px;
+    border-color: #29487d;
+    border: 0;
+    cursor: pointer;
+
+}
+.sub-btn:hover{
+
+    background: #3b5998;
+}
+.btn{
+    background: #3b5998;
+    color: #fff;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+
+
+.left-section{
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    margin-left: 95px;
+}
+.right-section{
+    width: 579px;
+    float: left;
+    margin-left: PX;
+
+}
+.main-body{
+    background: linear-gradient(#fff,#D3D8E8);
+    width: 100%;
+    height: 800PX;
+    
+}
+.para{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+    margin-left: 72px;
+color: #29487d;
+
+}
+.img{
+    width: 580px;;
+    margin-left: 72px;
+    
+}
+
+.form{
+    border-radius: 4px;
+    height: 34px;
+    width: 200px;
+    border: 2px solid rgb(155, 164, 172);
+}
+.form1{
+    border-radius: 4px;
+    height: 34px;
+  width: 412px;
+  border: 2px solid rgb(155, 164, 172);
+}
+.option{
+    border-radius: 4px;
+    height: 32px;
+width: 60px;
+border: 2px solid rgb(155, 164, 172);
+}
+.gender{
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(43, 42, 42);
+}
+.para2{
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+    color: grey;
+
+}
+.h1{
+
+    font-size: 40px;
+    font-weight: bold;
+}
+.clr{
+    color: grey;
+    font-weight: bold;   
+    font-size: 18px;
+}
+.sign{
+    color: #fff;
+    background: green;
+    width: 200px;
+    height: 38px;
+    border-radius: 4px;
+}
+.footer{
+    width: 100%;
+    
+    height: 100px;
+}
+.container{
+    width: 100%;
+}

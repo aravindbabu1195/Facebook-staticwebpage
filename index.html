@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+<link href="fb.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+         <div class="header" >
+              <div class="logo">
+                <a class="logo-text"  href="index.html">facebook</a>
+              </div>
+              <div class="login">
+               <form>
+                <table class="login-controls">
+                 <tr>
+                    <td><label class="login-label" autocomplete="off"> Email or Phone</label></td>
+                    <td><label class="login-label" autocomplete="off" > Password</label></td>
+                 </tr>
+                 <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input class="sub-btn login-label" type="submit" value="Login"></td>
+                    
+                 </tr>
+                 <tr>
+                    <td></td>
+                    <td><a class="forgotten" type="submit" href="forgotten.html">Forgotten account.?</a></td>
+                 </tr>
+                </table>
+                </form>
+              </div>
+         
+
+         </div>
+         <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the<br> people in your life.</p>
+                <img class="img" src="Images/social.png">
+
+            </div>
+            <div class="right-section">
+                 <h1 class="h1">Create an account</h1>
+                  <p class="gender">It's quick and easy.</p>
+                  <form  action="" id="signup">
+                     <input name="fname" type="text" autocomplete="off" placeholder="First name " class="form">
+                     <input name="sname" type="text" autocomplete="off" placeholder="Surname" class="form"><br><br>
+                     <input type="text" name="email" autocomplete="off" placeholder="Mobile number or Email address" class="form1">
+<br>
+<br>
+                     <input type="text" name="password" autocomplete="off"  placeholder="New password" class="form1">
+                     <br> 
+                     <h3 class="clr">Birthday</h3>
+                     <select class="option" name="day">
+                        <option value="">Day</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                     </select>
+                     <select class="option" name="month">
+                        <option value="">Month</option>
+                        <option value="j">JAN</option>
+                        <option value="f">FEB</option>
+                        <option value="m">MAR</option>
+                        <option value="a">APR</option>
+                        <option value="may">MAY</option>
+                     </select>
+                     <select class="option" name="year">
+                        <option value="">Year</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004 </option>
+                     </select>
+                     <h3 class="clr" >Gender</h3>
+                     <input type="radio" name="add">
+                     <label  class="gender">Female</label>
+                     <input type="radio" name="add">
+                     <label  class="gender">Male</label>
+                     <input type="radio" name="add">
+                     <label  class="gender">Custom</label>
+                     <p class="para2"><b>By clicking sign up, you agree our Terms, Data policy and <br>Cookie policy. You may receive SMS notification from us<br> and can opt out at any time.</b></p>
+                     <input type="submit" class="sign" value="Sign up">
+                  </form>
+            </div>
+
+         </div>
+         <div class="footer">
+
+         </div>
+
+         
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+
+   </body>
+</html>
